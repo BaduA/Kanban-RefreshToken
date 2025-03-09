@@ -24,7 +24,6 @@ function ModLayout() {
   return (
     <div className="flex flex-col font-bold h-full justify-center items-center pb-20">
       <div className="text-7xl text-white mb-10">Admin Dashboard</div>
-      {/* <DataTable columns={columns} data={data} /> */}
       <TableDemo data={data} />
     </div>
 
